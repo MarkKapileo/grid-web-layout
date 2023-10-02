@@ -40,6 +40,9 @@ body::after {
 div > article {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* vvv  bunch of formats for individual grid vvv */
+
 .grid-container > article > h1 {
     text-align: center;
 }
