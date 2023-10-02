@@ -8,11 +8,26 @@
 }
 /*BODY FORMAT */
 body {
-    background-image: url("/images/background_image.jpg");
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* BACKGROUND IMAGE FORMAT */
+body::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: .5;
+
+    background-image: url("../img/background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+
+
 
 /* CONTAINER STUFF */
 .grid-container > article {
