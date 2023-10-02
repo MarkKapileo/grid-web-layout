@@ -11,7 +11,6 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 20px ;
 }
 /* BACKGROUND IMAGE FORMAT */
 body::after {
@@ -40,9 +39,7 @@ body::after {
 div > article {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
 }
-
-/* vvv  bunch of formats for individual grid vvv */
-
+/* bunch of individual grid formatting */
 .grid-container > article > h1 {
     text-align: center;
 }
