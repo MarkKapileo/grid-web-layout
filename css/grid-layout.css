@@ -46,16 +46,20 @@ div > article {
 .wishes {
     grid-row: span 2;
     background-color: rgb(240, 145, 145);
+    opacity: .9;
 }
 .websitename {
     background-color: rgb(153, 148, 224);
+    opacity: .9;
 }
 .facts {
     background-color: #d28dd4;
+    opacity: .9;
 }
 .quote {
     grid-column: span 2;
     background-color: rgb(182, 231, 231);
+    opacity: .9;
 }
 .quote q {
     font-size: 30px;
